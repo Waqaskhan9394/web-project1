@@ -1,0 +1,855 @@
+a{
+  transition: all 1s linear;
+}
+a :hover{
+   transition: all 1s linear;
+}
+
+ /* HOME-----CSS---START */
+ 
+
+ @media (max-width: 768px) {
+   .section-3rd h3 {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+  .section-3rd  h3 {
+        font-size: calc(1.5rem + 1vw);
+    }
+}
+
+
+
+.slidearticle{
+  padding: 120px 0px;
+   border-bottom:2px solid black ;
+   position: relative;
+   padding-bottom:400px ;
+
+}
+.slider1{
+  position: absolute;
+  left: auto;
+  height: auto;
+  
+
+}
+
+
+.recentarticle{
+  padding-top: 300px;
+  background-color: #65c0ba;
+  padding-bottom: 200px;
+}
+
+.offcanvas.offcanvas-end {
+  width: 100% !important;
+  height: 100vh !important;
+  max-width: 100% !important;
+ 
+}
+.btn-close{
+  
+
+  font-size: 40px;
+  
+}
+
+.offcanvas .offcanvas-body {
+  height: 100% !important;
+  overflow-y: auto !important;
+}
+
+.offcanvas-body .navbar-nav .nav-item .nav-link{
+  font-size: 50px;
+  font-family: "Abril Fatface", times, serif;
+  color: black;
+  font-weight: bolder;
+}
+
+.offcanvas-body{
+  margin-top: 80px;
+  background-color: #f8f9fa;
+}
+.navimag{
+ height: 100vh;
+ background-size: cover;
+ /* position: relative; */
+ /* background-image: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.90)); */
+ background-color: rgba(0, 0, 0, 0.5);
+}
+.text-info{
+  color: #65c0ba;
+}
+
+header{
+ position: relative;
+ 
+}
+.navbar{
+  position: absolute;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  top: 30px;
+
+}
+.navbar-toggler{
+    font-size: 50px;
+    
+ 
+}
+.navbar-brand{
+  font-family:Bernard MT Condensed ;
+  font-size: 50px;
+  margin-left: 40px;
+}
+.secrow{
+  position: relative;
+}
+.colsect{
+position: absolute;
+top: 200px;
+}
+.colsect h2{
+      font-size: 80px;
+    font-family: "Abril Fatface", times, serif;
+    color:white;
+    line-height: 1;
+    font-weight: bold;
+   padding-bottom: 40px;
+}
+.colsect p{
+      font-size: 30px;
+    font-weight: 200;
+    color: white;
+    line-height: 1.5;
+    padding-bottom: 30px;
+ 
+}
+.colsect a:hover{
+  background-color: white;
+  color: black;
+}
+.colsect a{
+  text-decoration: none;
+  
+  
+  border: 1px solid white;
+  color: white;
+  font-size: 30px;
+   padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    letter-spacing: .2em;
+}
+
+ html{
+  scroll-behavior: smooth;
+}
+
+.firstimg{
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.firstimg img{
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+}
+.firsttext h2{
+    padding: 10px;
+    font-size: 30px;
+    font-family: Bahnschrift;
+}
+.firsttext p{
+     font-weight: lighter;
+     padding: 5px 10px;
+        font-size: 20px;
+}
+.playbutton{
+    padding: 5px 10px;
+    
+}
+.playbutton a{
+    text-decoration: none;
+    color: #65c0ba;
+     
+}
+.playbutton a .Watch{
+    font-size: 30px;
+    padding: 10px;
+    padding-bottom: 30px;
+    transition: all 1s linear;
+}
+.playbutton a:hover i{
+    color: black;
+    
+}
+.playbutton a:hover .Watch{
+    color: #10e7d9;
+}
+
+.pic{
+    height: 80px;
+    width: 80px;
+    
+    margin-left: 150px;
+
+ 
+}
+ 
+
+.pic img{
+   width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+    
+
+
+}
+.card{
+    border: none;
+   
+}
+.card-title{
+    font-size: 30px;
+    font-family: Bernard MT Condensed ;
+    
+}
+.card-text{
+    font-weight: lighter;
+    font-size: 18px;
+
+}
+
+.text-1 h2{
+text-align: center;
+font-family: Bahnschrift;
+font-size: 30px;
+font-weight: bolder;
+padding-bottom: 20px;
+}
+.text-1 p{
+   text-align: center;
+   font-size: 20px;
+   font-weight: lighter;
+}
+.section-3rd{
+  padding: 100px 100px;
+}
+.section-3rd h2{
+    font-size: 70px;
+    font-family:  Bernard MT Condensed;
+
+}
+.section-3rd p{
+    font-weight: lighter;
+font-size: 20px;
+text-align: justify;
+padding-top: 20px;
+
+}
+.blogpost{
+  padding: 100px 100px;
+}
+  .blogpost h2{
+    font-size: 80px;
+    font-family:  Bernard MT Condensed;
+
+  }
+  .blogpost p{
+     font-weight: lighter;
+     font-size: 20px;
+     text-align: justify;
+  }
+
+
+ .section-3rd {
+  padding: 10% 10%;
+}
+
+.section-3rd h2 {
+  font-size: 4rem;
+  font-family: Bernard MT Condensed;
+}
+
+.section-3rd p {
+  font-weight: lighter;
+  font-size: 1.5rem;
+  text-align: justify;
+  padding-top: 2rem;
+}
+
+.blogpost {
+  padding: 10% 10%;
+}
+
+.blogpost h2 {
+  font-size: 5rem;
+  font-family: Bernard MT Condensed;
+}
+
+.blogpost p {
+  font-weight: lighter;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .section-3rd {
+    padding: 5% 5%;
+  }
+  .section-3rd h2 {
+    font-size: 3rem;
+  }
+  .blogpost {
+    padding: 5% 5%;
+  }
+  .blogpost h2 {
+    font-size: 4rem;
+  }
+} 
+
+
+
+ .card-body .best-45  .text-body-secondary{
+
+    
+    text-transform: uppercase;
+    letter-spacing: .1em;
+       
+  
+  }
+  .card-blog{
+    height: 600px;
+    background-color: white;
+   
+  }
+  .card-blog a{
+    text-decoration: none;
+    color: black;
+  }
+  .card-blog a:hover{
+    color: azure;
+  }
+  .card-text{
+    letter-spacing: .1em;
+       
+  }
+  
+    
+  
+   /* .customer h2{
+    font-size: calc(.2rem + 1vw);
+    font-family:  Bernard MT Condensed;
+padding-top: 100px;
+  }  */
+   @media (max-width: 768px) {
+   .customer h2 {
+        font-size: calc(2.2rem + 1vw);
+    }
+}
+
+@media (max-width: 480px) {
+   .customer h2 {
+        font-size: calc(1.5rem + 1vw);
+    }
+} 
+
+
+  .customer-pic{
+    height: 80px;
+    width: 80px;
+  }
+  .customer-pic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+  }
+  .card-customer-text{
+    line-height: 1.5;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-size: 18px;
+    color:#6c757d;
+    font-style: italic;
+  }
+  .customer-45{
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 100px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #899299;
+  
+    
+font-style: italic;
+    
+    padding-top: 15px;
+  }
+  .art-4{
+    padding: 100px 0px;
+    background-color: #f8f9fa ;
+  }
+  .Destination{
+    padding-bottom: 50px;
+  }
+ 
+ .Destination h2{
+    font-family: Abril Fatface times, serif;
+ font-size: 2rem;
+ font-weight:bold;
+ }
+ .Destination p{
+        font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #6c757d;
+}
+.card-Destination h5 {
+    font-family:Bodoni MT black ;
+}
+ .fa-solid  {
+    font-size: 15px;
+    color: #65c0ba;
+}
+ 
+ 
+ .fa-regular{
+        font-size: 15px;
+    color: #65c0ba;
+
+ }
+ .card-Destination a{
+    text-decoration: none;
+    color: black;
+    
+ }
+ .card-Destination a:hover{
+    color: #65c0ba;
+ }
+ .art-5{
+    padding: 100px 0px;
+ }
+ .footer h3{
+     
+
+
+        margin-bottom: 0.5rem;
+  
+    font-weight: 500;
+    line-height: 1.2;
+   
+}
+.footer ul li{
+  list-style: none;
+  font-style: italic;
+  
+  
+  
+}
+.footer ul li  a{
+  text-decoration: none;
+  color: #9ca2a8 ;
+  font-size: 18px;
+}
+.footer ul li a:hover{
+  color: white;
+}
+.footer{
+  text-align: left;
+}
+.footh3{
+  padding-left: 25px;
+}
+.footer1strow{
+  padding: 100px 0px;
+  color: white;
+  
+  border-bottom: 1px solid white;
+}
+ footer{
+  background-color: black;
+  padding: 50px 0px;
+ }
+ .sptext{
+  color:#9ca2a8;
+  font-size: 18px;
+ }
+ .footer form {
+  position: relative;
+  
+ }
+ .footer form input{
+  width: 100%;
+  font-size: 15px;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  padding: 15px 0px;
+  border-bottom: 2px solid #ffffff;
+
+ }
+ .footer form input::placeholder{
+  color: #b7b7b7;
+ }
+ .footer form button{
+  color: #b7b7b7;
+  font-size: 16px;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  height: 100%;
+  background: transparent;
+ }
+.footer form input:focus{
+  outline: none;
+}
+a:hover,a:focus{
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+}
+ 
+ .footer2ndrow{
+  color: white;
+  padding-top:100px ;
+  padding-bottom: 150px;
+ }
+ .footer2ndrow a{
+  color:#9ca2a8;
+  font-size: 20px;
+  padding: 10px;
+ }
+ .Copyr{
+
+ color:#9ca2a8;
+  font-size: 18px;}
+  .fa-heart{
+    color:#9ca2a8 ;
+  }
+  .art3rd{
+  background-color: crimson;
+  }
+  /* HOME-------CSS---END */
+  /* HOTELS---CSS---START */
+
+.cardhotel{
+  background-color:white ;
+}
+.hotalcart{
+  padding: 150px 0px;
+}
+
+.card-HOTAL{
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+.card-HOTAL a{
+    text-decoration: none;
+    color: black;
+    
+  }
+  .card-HOTAL a:hover{
+    color: rgb(16, 185, 185);
+  }
+  .card-HOTAL h5{
+padding-bottom: 25px;
+  }
+.btn-inf{
+  outline: 3px solid #65c0ba;
+  background-color: #fff;
+  color: black;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+  border-radius: 2px;
+}
+.btn-inf:hover{
+  background-color:#65c0ba ;
+  color: white;
+}
+.slidearticle2{
+  position: relative;
+   padding: 120px 0px;
+   border-bottom:2px solid black ;
+
+   padding-bottom:400px ;
+}
+.slider2{
+  position: absolute;
+  left: auto;
+  height: auto;
+}
+  /* HOTEL---CSS---END */
+  /* NEWS----CSS--START */
+  .coldiv{
+    margin-left: 10px;
+     /* box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1); */
+
+  }
+ 
+.form-group{
+  position: relative;
+}
+.icon{
+  position: absolute;
+  top: 14px;
+  left: 1.25rem;
+  color: black;
+}
+.form-group .form-control{
+  left: .5rem;
+  padding-left: 3.5rem;
+  border: 2px solid #cccccc;
+  box-shadow: none;
+  border-radius: 0%;
+}
+.form-group .form-control:focus{
+  
+  border: 1px solid  black;
+  
+}
+.box{
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+}
+/* .popular ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+
+.popular-image img{
+  height:100px;
+  width: 130px;
+  padding-left: 0px;
+  object-fit: cover;
+
+}
+.popular ul li a{
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+.popular-h3{
+  display: inline;
+  float: right;
+  margin-top: -30px;
+}
+.popular-div{
+  float: left;
+  margin-left: 20px;
+}
+.popular-image{
+  float: left;
+  
+ 
+}
+.popular-div span{
+  text-align: justify;
+  font-size: 13px;
+    color: #adb5bd;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+.popular-div h3{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+      font-family: "Abril Fatface", times, serif;
+      font-weight: bolder;
+} */
+
+.popular  a .popular-image{
+  height: 100px;
+  width: 150px;
+  overflow: hidden;
+  float: left;
+  margin-right: 10px;
+
+}
+.popular a .popular-image img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.popular a{
+ 
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+
+
+ .shadow{
+ box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+ padding: 20px;
+ }
+ .popular-div .spn1{
+  font-size: 13px;
+    color: #adb5bd;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+ 
+.popular-div .spn2{
+  font-size: 16px;
+  font-weight: bolder;
+  color: black;
+  font-family: "Abril Fatface", times, serif;
+}
+
+.secondrow{
+  
+   margin-bottom: 10px;
+
+}
+
+ .list-group .listfirst  a{
+  text-decoration: none;
+  color:  #10e7d9;
+  
+ 
+
+  
+}
+.listfirst   a span {
+  padding-left:210px ;
+  
+}
+.listfirst span{
+  color: black;
+}
+
+.listfirst{
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  padding:20px;
+  font-size: 15px;
+
+  
+}
+.row3rd{
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+
+  margin-top: 60px;
+}
+
+
+.row3rd h2{
+  font-size: 30px;
+  padding: 25px;
+}
+
+.card-news{
+    
+     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+margin-top: 20px;
+  }
+  
+  .card-news a{
+    text-decoration: none;
+    color: black;
+    
+   
+  }
+  .card-news .card-body{
+    padding-bottom: 35px;
+  }
+  .card-news a:hover{
+    color: rgb(11, 180, 180);
+  }
+ 
+
+
+
+  .pagination .page-item {
+    color: #000;
+   
+  }
+  .pagination .page-item .page-link{
+    
+ 
+   border-radius: 50%;
+  }
+  /* NEWS---CSS--END */
+  /* cotact---CSS--start */
+.group{
+
+   
+  background-color: #fff;
+ margin-top: 100px;
+ padding: 60px 25px;
+ margin-right: -100px;
+ 
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+.group input{
+  padding: 10px;
+  margin: 10px;
+}
+
+
+
+.contacttext p{
+
+  font-size: 14px;
+    letter-spacing: .2em;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    text-transform: uppercase;
+    color: #65c0ba;
+    font-weight: bold;
+}
+.contacttext h3{
+font-family: "Abril Fatface", times, serif;
+    color: #000;
+    font-size: auto;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.colu{
+   background-color: #fff;
+ width: 600px;
+ padding: 60px 25px;
+
+margin-top: 90px;
+ 
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+
+  
+
+  
+
+
+  /* contact---CSS--END */
+  /* about---css--start */
+  .card-about{
+    
+     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+margin-top: 20px;
+  }
+  
+  .card-about a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 30px;
+  }
+  .card-about a:hover{
+    color: rgb(11, 180, 180);
+  }
+  /* about----css---end */
